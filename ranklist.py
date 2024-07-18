@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Tournament Ranklist Hosting Web App")
+st.title("Tournament Ranklist")
 
 st.sidebar.title("Upload Tournament Data")
 uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type="csv")
