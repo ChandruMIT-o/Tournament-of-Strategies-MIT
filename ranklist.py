@@ -3,8 +3,8 @@ import pandas as pd
 
 st.title("Tournament Ranklist")
 
-st.sidebar.title("Upload Tournament Data")
-uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type="csv")
+st.sidebar.title("Upload Data")
+uploaded_file = st.sidebar.file_uploader("Choose a file", type="csv")
 
 if uploaded_file is not None:
     # Load data
