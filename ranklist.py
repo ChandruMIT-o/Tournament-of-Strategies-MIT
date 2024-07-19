@@ -25,7 +25,13 @@ st.image("Assets/poster2.jpg")
 st.write("##### Check the ranklist here for each Editions of the game.")
 
 st.write("### :orange[Cooperation Edition]")
-st.code("Sorry for the inconvenience. As we have received a lot of strategies, We might need more time for the evaluation. Results will be updated by tomorrow afternoon. We will contact the respective institution after the results, regarding winners. Thank you for your patience.")
+st.code("""Sorry for the inconvenience. 
+        As we have received a lot of strategies, 
+        We might need more time for the evaluation. 
+        Results will be updated by tomorrow afternoon. 
+        We will contact the respective institution after the results, regarding winners. 
+        Thank you for your patience."""
+        )
 
 with st.sidebar:
     with st.expander("Contacts"):
