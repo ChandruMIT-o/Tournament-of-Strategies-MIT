@@ -24,19 +24,19 @@ st.markdown(css, unsafe_allow_html=True)
 st.image("Assets/poster2.jpg")
 st.write("##### Check the ranklist here for each Editions of the game.")
 
-st.write("### :orange[Contribution Edition]")
-st.code("Results last updated at ")
+st.write("### :orange[Cooperation Edition]")
+st.code("Results will be updated in an hour. (Submission alone will be visible.)")
 
 with st.sidebar:
     with st.expander("Contacts"):
         st.write("##### :blue[Phone:]")
-        st.code("044-22516020",language = None)
+        st.code("+91 7667634519",language = None)
         st.write("##### :blue[Mail:]")
         st.code("officeitmit@gmail.com",language = None)
 
     with st.expander("Event Details"):
         st.write("##### :blue[Access Drive Details]")
-        st.link_button("Go to gallery", "https://streamlit.io/gallery")
+        st.link_button("Go to Drive", "https://drive.google.com/drive/folders/1eWMRrbatMhwQvE4Wat4LUtdt0O6Op5a0?usp=sharing")
 
 with st.expander(":blue[Rank List]"):
 
@@ -48,8 +48,8 @@ with st.expander(":blue[Rank List]"):
 
     st.write("##### [Binary Evaluation]")
 
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    # st.dataframe(df, use_container_width=True, hide_index=True)
 
     st.write("##### [Fool-Proof Evaluation]")
 
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    # st.dataframe(df, use_container_width=True, hide_index=True)
