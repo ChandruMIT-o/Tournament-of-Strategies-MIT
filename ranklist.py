@@ -25,13 +25,7 @@ st.image("Assets/poster2.jpg")
 st.write("##### Check the ranklist here for each Editions of the game.")
 
 st.write("### :orange[Cooperation Edition]")
-st.code("""Sorry for the inconvenience. 
-As we have received a lot of strategies, 
-We might need more time for the evaluation. 
-Results will be updated by tomorrow afternoon. 
-We will contact the respective institution after the results, regarding winners. 
-Thank you for your patience."""
-        )
+st.code("""Final Results have been Published!""")
 
 with st.sidebar:
     with st.expander("Contacts"):
@@ -46,9 +40,9 @@ with st.sidebar:
 
 with st.expander(":blue[Rank List]"):
 
-    df = pd.read_csv("Result_for_TOS.csv")
+    df = pd.read_csv("finalised.csv")
     st.write("##### [Point Based Evaluation]")
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    st.dataframe(df, use_container_width=True, hide_index=True, height=800)
 
     st.write("###### :blue[Other Evaluations]")
 
